@@ -22,7 +22,9 @@
 ![Screenshot from 2022-03-11](./images/mobile.png)
 
 
-## Live Site URL:
+## Live Site URL: 
+
+- https://misheck12.github.io/Concert-capstone/index.html
 
 ## Author
 
@@ -43,6 +45,10 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+Cindy Shin
+
+https://www.behance.net/adagio07
 
 ## 📝 License
 
