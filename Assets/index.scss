@@ -319,7 +319,7 @@ main {
         flex-direction: column;
         justify-content: space-evenly;
 
-        blockabout {
+        .blockabout {
           font-size: $small-font;
           font-style: italic;
           color: $main-color1;
@@ -480,7 +480,7 @@ footer {
           width: 100%;
 
           .speaker-info {
-            blockabout {
+            .blockabout {
               margin-top: -5px;
             }
 
