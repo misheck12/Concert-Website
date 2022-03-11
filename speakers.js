@@ -24,7 +24,8 @@ const speakersObject = [
   {
     name: 'H.E Edgar C. lungu',
     about: 'Former president of Zambia',
-    history:'sixth president of Zambia . he served the country from 2015 to 2021 ..',
+    history: 'sixth president of Zambia . he served the country from 2015 to 2021 ..',
+
   },
 
   {
