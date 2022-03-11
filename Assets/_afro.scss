@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+$font1: cocogoose, sans-serif;
+$font2: lato, sans-serif;
+$main-color1: #ec5242;
+$main-color2: #595c61;
+$main-color3: #d3d3d3;
+$header-bg: url(../images/background.png);
+$header-bg2: url(../images/bkgrnd.png);
+$about-bg: url(../images/about-dektop.png);
+$small-font: 0.8rem;
+$text-center: center;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin title-background {
+  background: url(../images/red-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin image-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin red-line {
+  width: 50px;
+  height: 2px;
+  background-color: $main-color1;
+  opacity: 0.6;
+  margin: 15px 0 30px 0;
+}
+
+@mixin grey-line {
+  width: 20px;
+  height: 2px;
+  background-color: #e7e8e9;
+}
+
+@mixin centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin image-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@mixin partners {
+  section#partners {
+    @include centered;
+
+    flex-direction: column;
+    background-color: #434344;
+    padding: 30px 10px;
+
+    h2 {
+      color: #fff;
+    }
+
+    .red-line {
+      @include red-line;
+    }
+
+    #partners-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+      span {
+        color: rgb(151, 148, 148);
+        font-size: 1.2rem;
+
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+@mixin footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+
+  .logo {
+    display: flex;
+    color: black;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      font-size: $small-font;
+      font-family: $font1;
+      margin-left: 3px;
+    }
+  }
+
+  p {
+    font-size: 0.6rem;
+    width: 35%;
+    line-height: 1.5;
+  }
+}
+
+@mixin navbar {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(233, 231, 231);
+    background-color: #faf7f7;
+    box-shadow: 0 0 8px 3px rgb(196, 193, 193);
+    position: relative;
+    z-index: 1;
+
+    a {
+      text-decoration: none;
+      color: $main-color2;
+    }
+
+    a:hover {
+      color: $main-color1;
+    }
+
+    #top-nav {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #313131;
+      padding: 10px 0;
+
+      ul {
+        width: 80%;
+        min-width: 768px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+
+        li {
+          list-style: none;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+
+          a:hover {
+            color: $main-color1;
+          }
+        }
+      }
+    }
+
+    #bottom-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      min-width: 768px;
+      padding: 15px 0;
+
+      #nav-logo {
+        display: flex;
+
+        span {
+          a {
+            color: $main-color1;
+            text-decoration: none;
+          }
+        }
+
+        div {
+          a {
+            display: flex;
+            flex-direction: column;
+            color: black;
+            text-decoration: none;
+            font-family: $font1;
+            margin-left: 3px;
+          }
+        }
+      }
+
+      ul {
+        display: flex;
+        width: 55%;
+        justify-content: flex-end;
+        gap: 10%;
+
+        li {
+          list-style: none;
+        }
+      }
+
+      #campaign {
+        border: 5px solid $main-color1;
+        padding: 10px;
+
+        span {
+          color: $main-color1;
+
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      #campaign:hover {
+        cursor: pointer;
+        box-shadow: 0 0 15px 3px $main-color1;
+      }
+    }
+  }
+}
+
+body {
+  font-family: $font2;
+  color: $main-color2;
+}

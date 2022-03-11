@@ -1,0 +1,470 @@
+@import "afro";
+
+/* Header */
+
+nav {
+  display: none;
+}
+
+#exit-button {
+  display: none;
+}
+
+.open-menu {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-color: #313131;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.top-nav {
+  width: 100%;
+  margin-bottom: 80px;
+
+  #exit-button {
+    display: block;
+    position: relative;
+    top: -90%;
+    left: 85%;
+    color: $main-color1;
+  }
+
+  #exit-button:hover {
+    cursor: pointer;
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      list-style: none;
+      margin-bottom: 20px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $main-color1;
+      }
+    }
+  }
+}
+
+.bottom-nav {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  #nav-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    span {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+
+      a {
+        color: $main-color1;
+      }
+    }
+
+    div {
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  #campaign {
+    font-size: 1rem;
+    border: 2px solid gray;
+    padding: 15px 25px;
+    margin-top: 30px;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf7f7;
+  background-image: $about-bg;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 35%;
+  padding: 20px 20px 50px 20px;
+
+  #home {
+    display: none;
+  }
+
+  .menu {
+    color: $main-color2;
+    cursor: pointer;
+  }
+
+  #welcome-words {
+    text-align: $text-center;
+    color: $main-color1;
+    font-family: $font2;
+    margin: 35px 0 5px 0;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    text-align: $text-center;
+    color: $main-color1;
+    font-family: $font1;
+
+    .h1-span {
+      text-align: $text-center;
+      color: $main-color1;
+    }
+  }
+
+  #main-p {
+    text-align: $text-center;
+    border: 2px solid rgb(243, 240, 240);
+    background-color: #fff;
+    font-size: $small-font;
+    font-family: $font2;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  #contact {
+    text-align: $text-center;
+    margin: 20px 0 10px 0;
+    padding: 0 20px;
+    font-size: $small-font;
+  }
+
+  #email {
+    text-align: $text-center;
+    font-size: $small-font;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  #email:hover {
+    cursor: pointer;
+  }
+}
+
+/* Main */
+
+main {
+  #logo-section {
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #eeeded;
+
+    h2 {
+      text-align: $text-center;
+      width: 80%;
+      font-size: 1.2rem;
+    }
+
+    .red-line {
+      @include red-line;
+    }
+
+    p {
+      font-size: $small-font;
+      width: 80%;
+      text-align: $text-center;
+    }
+
+    .logo-container {
+      border: 2px solid #eeeded;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      margin-top: 30px;
+      padding: 20px 40px;
+      width: 100%;
+
+      span {
+        color: $main-color1;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          color: black;
+          font-family: $font1;
+        }
+      }
+    }
+  }
+
+  #Alumni {
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      text-align: $text-center;
+      font-size: 1.2rem;
+    }
+
+    .red-line {
+      @include red-line;
+    }
+
+    p {
+      text-align: $text-center;
+      font-size: $small-font;
+      width: 80%;
+    }
+
+    .containers {
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+
+      .red-div {
+        background-color: rgba(187, 32, 32, 0.7);
+        height: 100%;
+
+        @include centered;
+
+        flex-direction: column;
+        padding: 0 6px;
+
+        h4 {
+          color: #fff;
+          font-size: 1.5rem;
+          margin-bottom: 15px;
+          font-family: $font1;
+        }
+
+        span {
+          color: rgba(253, 251, 251, 0.8);
+        }
+      }
+    }
+
+    #container-1 {
+      background-image: url(../images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+
+      @include image-bg;
+    }
+
+    #container-2 {
+      background-image: url(../images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+
+      @include image-bg;
+    }
+  }
+
+  @include partners;
+}
+
+/* Footer */
+
+footer {
+  @include footer;
+}
+
+@media (max-width: 380px) {
+  header {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    #next-class {
+      font-size: 1.2rem;
+    }
+  }
+
+  #footer-p {
+    color: #313131;
+    font-size: 1.2rem;
+    margin-left: 100px;
+  }
+
+  @media (min-width: 768px) {
+    @include navbar;
+
+    #menu {
+      display: none;
+    }
+
+    header {
+      height: 100vh;
+      background-position: center 25%;
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      #home {
+        display: block;
+        position: relative;
+        top: -5%;
+        left: 35%;
+
+        a {
+          text-decoration: none;
+          color: $main-color2;
+
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      #welcome-words {
+        display: none;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        width: 50%;
+        min-width: 700px;
+      }
+
+      .red-line {
+        @include red-line;
+      }
+
+      #main-p {
+        width: 55%;
+        font-size: 1rem;
+        padding: 20px 30px;
+        line-height: 2;
+      }
+
+      #contact {
+        font-size: 1rem;
+        padding: 30px 0;
+      }
+
+      #email {
+        font-size: 1rem;
+        letter-spacing: 1px;
+      }
+    }
+
+    main {
+      #logo-section {
+        padding: 50px 0 100px 0;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+          margin-bottom: 30px;
+        }
+
+        .logo-container {
+          width: 30%;
+          min-width: 500px;
+          padding: 50px 30px;
+        }
+      }
+
+      #Alumni {
+        padding: 50px 0 200px 0;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          margin-bottom: 50px;
+          font-size: 1rem;
+        }
+
+        #red-container {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          width: 100%;
+
+          .containers {
+            width: 30%;
+            min-width: 350px;
+            height: 300px;
+
+            span {
+              color: #fff;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      section#partners {
+        display: none;
+      }
+    }
+
+    footer {
+      background-color: #313131;
+      padding: 80px 0;
+      justify-content: center;
+      align-items: center;
+
+      .logo {
+        align-items: center;
+        gap: 5px;
+
+        #logo-span {
+          color: #fff;
+          font-size: 1.5rem;
+        }
+
+        #logo-name {
+          color: #fff;
+          font-size: 1.5rem;
+        }
+      }
+
+      #footer-p {
+        color: #fff;
+        font-size: 1.2rem;
+        margin-left: 50px;
+      }
+    }
+  }
+}
