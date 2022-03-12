@@ -33,7 +33,7 @@ const speakersObject = [
   },
 
   {
-    image: 'images/images\ \(1\).jpeg',
+    image: 'images/tony.jpeg',
     name: 'Tony Elumelu',
     about: 'Current chairman of UBA',
     history:
@@ -62,7 +62,7 @@ function createspeakers() {
 
     const imageDiv = document.createElement('img');
     imageDiv.setAttribute('id', `img-div${i}`);
-    imageDiv.setAttribute('src', speakersObject[i-1].image);
+    imageDiv.setAttribute('src', speakersObject[i - 1].image);
 
     const speakerInfo = document.createElement('div');
     speakerInfo.setAttribute('class', 'speaker-info');
