@@ -2,6 +2,7 @@ const speakersSection = document.querySelector('#speakers');
 
 const speakersObject = [
   {
+    image: 'images/download.jpeg',
     name: 'H.E Hakainde Hichilema',
     about: 'Current president of Zambia',
     history:
@@ -9,12 +10,14 @@ const speakersObject = [
   },
 
   {
+    image: 'images/president-Nana.png',
     name: 'H.E Nana Akufo-Addo',
     about: 'Current president of Ghanan',
     history: 'Ghanaian president who has served Ghana since 7 January 2017. In 2020, he was re-elected for his second term, which will end on 6 January 2025.',
   },
 
   {
+    image: 'images/Paul_Kagame_2014.jpg',
     name: 'H.E Paul Kagame ',
     about: 'Current president of Rwanda',
     history:
@@ -22,6 +25,7 @@ const speakersObject = [
   },
 
   {
+    image: 'images/images.jpeg',
     name: 'H.E Edgar C. lungu',
     about: 'Former president of Zambia',
     history: 'sixth president of Zambia . he served the country from 2015 to 2021 ..',
@@ -29,6 +33,7 @@ const speakersObject = [
   },
 
   {
+    image: 'images/images\ \(1\).jpeg',
     name: 'Tony Elumelu',
     about: 'Current chairman of UBA',
     history:
@@ -36,6 +41,7 @@ const speakersObject = [
   },
 
   {
+    image: 'images/nevers-mumba.jpeg',
     name: 'Dr Nevers Mumba',
     about: 'Former vice president of Zambia',
     history:
@@ -54,8 +60,9 @@ function createspeakers() {
     const profileContainer = document.createElement('div');
     profileContainer.setAttribute('class', 'profile-container');
 
-    const imageDiv = document.createElement('div');
+    const imageDiv = document.createElement('img');
     imageDiv.setAttribute('id', `img-div${i}`);
+    imageDiv.setAttribute('src', speakersObject[i-1].image);
 
     const speakerInfo = document.createElement('div');
     speakerInfo.setAttribute('class', 'speaker-info');
