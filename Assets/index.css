@@ -357,7 +357,6 @@ main #speakers .speakers .profile-container {
 }
 
 main #speakers .speakers .profile-container #img-div1 {
-  background-image: url("../images/download.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -369,7 +368,6 @@ main #speakers .speakers .profile-container #img-div1 {
 }
 
 main #speakers .speakers .profile-container #img-div2 {
-  background-image: url("../images/president-Nana.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -381,7 +379,6 @@ main #speakers .speakers .profile-container #img-div2 {
 }
 
 main #speakers .speakers .profile-container #img-div3 {
-  background-image: url("../images/Paul_Kagame_2014.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -393,7 +390,6 @@ main #speakers .speakers .profile-container #img-div3 {
 }
 
 main #speakers .speakers .profile-container #img-div4 {
-  background-image: url("../images/images.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 120px;
@@ -405,7 +401,6 @@ main #speakers .speakers .profile-container #img-div4 {
 }
 
 main #speakers .speakers .profile-container #img-div5 {
-  background-image: url("../images/images\ \(1\).jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 120px;
@@ -417,7 +412,6 @@ main #speakers .speakers .profile-container #img-div5 {
 }
 
 main #speakers .speakers .profile-container #img-div6 {
-  background-image: url("../images/nevers-mumba.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 120px;
