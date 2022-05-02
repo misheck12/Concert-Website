@@ -1,56 +1,38 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Capstone: Afrotech's 2022 global Summit
 
-# Project Name
+> This is the first capstone project from Microverse, i have managed to apply what I learned in the first module.
 
-> Description the project.
-
+> The project is about Afrotech's 2022 global Summit. The website gives information about the event
+> The about-page can be accessed from the homepage with the 'About' link.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS/Sass
+- JavaScript
 
-## Live Demo (if available)
+## Screenshot
 
-[Live Demo Link](https://livedemo.com)
+* Desktop
 
+![Screenshot from 2022-03-11](./images/Screenshot%20from%202022-03-11%2014-26-18.png)
 
-## Getting Started
+* Mobile version
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+![Screenshot from 2022-03-11](./images/mobile.png)
 
 
+## Live Site URL: 
 
-## Authors
+- https://misheck12.github.io/Concert-capstone/index.html
 
-👤 **Author1**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Misheck Livingi**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/misheck12
+- Linkedin: https://www.linkedin.com/in/misheck-livingi-a0b536142/
+- Twitter : https://twitter.com/MisheckLivingi2
 
 ## 🤝 Contributing
 
@@ -64,9 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Cindy Shin
+
+https://www.behance.net/adagio07
 
 ## 📝 License
 

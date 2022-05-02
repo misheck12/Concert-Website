@@ -1,0 +1,534 @@
+@import "afro";
+
+/* Header */
+
+nav {
+  display: none;
+}
+
+#exit-button {
+  display: none;
+}
+
+.open-menu {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-color: #313131;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.top-nav {
+  width: 100%;
+  margin-bottom: 80px;
+
+  #exit-button {
+    display: block;
+    position: relative;
+    top: -90%;
+    left: 85%;
+    color: $main-color1;
+  }
+
+  #exit-button:hover {
+    cursor: pointer;
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      list-style: none;
+      margin-bottom: 20px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.bottom-nav {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  #nav-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    span {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+    }
+
+    a {
+      color: $main-color1;
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  #campaign {
+    font-size: 1rem;
+    border: 2px solid gray;
+    padding: 15px 25px;
+    margin-top: 30px;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: $header-bg;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 20px 50px 20px;
+
+  .menu {
+    color: $main-color2;
+
+    i:hover {
+      cursor: pointer;
+    }
+  }
+
+  #headline {
+    margin-top: 35px;
+
+    #welcome-words {
+      color: $main-color1;
+      font-family: $font2;
+      margin: 30px 0 5px 0;
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      @include title-background;
+
+      font-family: $font1;
+
+      .h1-span {
+        display: block;
+        margin-top: -12px;
+      }
+    }
+
+    p {
+      border: 3px solid #fff;
+      background-color: #faf7f7;
+      font-size: $small-font;
+      font-family: $font2;
+      font-weight: 500;
+      padding: 10px;
+      line-height: 1.5;
+      margin: 20px 0 10px 0;
+    }
+
+    #next-class {
+      margin-top: 10px;
+      font-size: 1.5rem;
+      font-family: $font1;
+
+      #start-date {
+        display: block;
+        margin-top: -8px;
+      }
+    }
+
+    #location {
+      display: block;
+      font-family: $font2;
+      font-size: $small-font;
+      margin-top: -3px;
+    }
+  }
+}
+
+/* Main */
+
+main {
+  /* Main Curriculum */
+
+  #main-curriculum {
+    background-image: url(../images/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+
+    @include centered;
+
+    flex-direction: column;
+    padding: 30px 15px;
+
+    .red-line {
+      @include red-line;
+    }
+
+    .languages {
+      @include centered;
+
+      justify-content: space-between;
+      background-color: rgba(82, 81, 81, 0.7);
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+
+      span {
+        color: #fff;
+        background-color: $main-color1;
+
+        @include centered;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+      }
+
+      h3 {
+        color: $main-color1;
+      }
+
+      p {
+        width: 50%;
+        font-size: $small-font;
+        line-height: 1.5;
+      }
+    }
+
+    .languages:hover {
+      cursor: pointer;
+      outline: 2px solid white;
+    }
+
+    button {
+      background-color: $main-color1;
+      border: none;
+      color: #fff;
+      width: 80%;
+      font-size: 1rem;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    #see-program {
+      display: none;
+    }
+  }
+
+  /* Featured speakers */
+
+  #speakers {
+    @include centered;
+
+    flex-direction: column;
+    padding: 30px 15px;
+
+    .red-line {
+      @include red-line;
+    }
+
+    .speakers {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+
+      .profile-container {
+        background-image: url("../images/checkerboard-squares-black-white.jpg");
+        background-repeat: no-repeat;
+        background-size: 40%;
+        width: 135px;
+        height: 135px;
+        position: relative;
+
+        #img-div1 {
+          background-image: url("../images/bobby-barr-4ghz4KQWYD0-unsplash.jpg");
+
+          @include image-container;
+        }
+
+        #img-div2 {
+          background-image: url("../images/christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg");
+
+          @include image-container;
+        }
+
+        #img-div3 {
+          background-image: url("../images/jake-nackos-IF9TK5Uy-KI-unsplash.jpg");
+
+          @include image-container;
+        }
+
+        #img-div4 {
+          background-image: url("../images/adetola-afolabi-x0A7wgQmmdk-unsplash.jpg");
+
+          @include image-container;
+
+          background-position: top;
+        }
+
+        #img-div5 {
+          background-image: url("../images/jurica-koletic-7YVZYZeITc8-unsplash.jpg");
+
+          @include image-container;
+
+          background-position: top;
+        }
+
+        #img-div6 {
+          background-image: url("../images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg");
+
+          @include image-container;
+
+          background-position: top;
+        }
+      }
+
+      .speaker-info {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .blockabout {
+          font-size: $small-font;
+          font-style: italic;
+          color: $main-color1;
+        }
+
+        .grey-line {
+          @include grey-line;
+        }
+
+        p {
+          font-size: $small-font;
+        }
+      }
+    }
+  }
+
+  @include partners;
+}
+
+/* Footer */
+
+footer {
+  @include footer;
+}
+
+/* Media Queries */
+
+@media (max-width: 380px) {
+  header {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    #next-class {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  @include navbar;
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    background-image: $header-bg2;
+    background-position: top;
+
+    #menu {
+      display: none;
+    }
+
+    #headline {
+      margin-top: 150px;
+      width: 80%;
+      min-width: 800px;
+
+      #welcome-words {
+        font-size: 3rem;
+      }
+
+      h1 {
+        font-size: 4.5rem;
+
+        span {
+          margin-top: -35px;
+        }
+      }
+
+      p {
+        margin: 0 0 40px 0;
+        width: 65%;
+        max-width: 800px;
+        font-size: 1.1rem;
+        padding: 15px 30px;
+      }
+
+      span#next-class {
+        font-size: 2rem;
+
+        #start-date {
+          display: inline-block;
+        }
+      }
+
+      #location {
+        display: block;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  main {
+    #main-curriculum {
+      background-position: bottom;
+
+      h2 {
+        padding: 30px 0 0 0;
+      }
+
+      #languages-container {
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+        max-width: 70%;
+
+        .languages {
+          flex-direction: column;
+          justify-content: space-between;
+          text-align: $text-center;
+          width: 15%;
+          min-width: 160px;
+          padding: 20px 0;
+
+          h3 {
+            padding: 5px 0;
+          }
+        }
+      }
+
+      button {
+        display: none;
+      }
+
+      #see-program {
+        display: block;
+        text-decoration: underline;
+        padding: 50px 0;
+      }
+
+      #see-program:hover {
+        cursor: pointer;
+        color: $main-color1;
+        text-decoration: none;
+      }
+    }
+
+    #speakers {
+      padding: 50px 0;
+
+      .red-line {
+        margin-bottom: 50px;
+      }
+
+      #speakers-container {
+        width: 50%;
+        min-width: 768px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+        row-gap: 50px;
+        align-content: center;
+
+        .speakers {
+          width: 100%;
+
+          .speaker-info {
+            .blockabout {
+              margin-top: -5px;
+            }
+
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    section#partners {
+      padding: 50px 0;
+
+      h2 {
+        color: #8f8c8c;
+      }
+
+      #partners-container {
+        gap: 50px;
+
+        span {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  footer {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 0;
+
+    .logo {
+      align-items: center;
+
+      #footer-logo {
+        font-size: 1.5rem;
+      }
+
+      #logo-name {
+        font-size: 1.5rem;
+      }
+    }
+
+    #footer-p {
+      font-size: 1.2rem;
+    }
+  }
+}
