@@ -1,8 +1,8 @@
-# Capstone: Afrotech's 2022 global Summit
+# Capstone: Kalibu's 2022 youth Summit
 
 > This is the first capstone project from Microverse, i have managed to apply what I learned in the first module.
 
-> The project is about Afrotech's 2022 global Summit. The website gives information about the event
+> The project is about Kalibu's 2022 youth Summit. The website gives information about the event
 > The about-page can be accessed from the homepage with the 'About' link.
 
 ## Built With

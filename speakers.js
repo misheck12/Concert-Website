@@ -6,7 +6,7 @@ const speakersObject = [
     name: 'H.E Hakainde Hichilema',
     about: 'Current president of Zambia',
     history:
-      'He has been in opposition for 20 years failed 4 times. he owns shares in big global companies.',
+      'He has been in opposition for 20 years failed 4 times. he owns shares in big youth companies.',
   },
 
   {
@@ -25,28 +25,14 @@ const speakersObject = [
   },
 
   {
-    image: 'images/images.jpeg',
-    name: 'H.E Edgar C. lungu',
-    about: 'Former president of Zambia',
-    history: 'sixth president of Zambia . he served the country from 2015 to 2021 ..',
-
-  },
-
-  {
-    image: 'images/tony.jpeg',
-    name: 'Tony Elumelu',
-    about: 'Current chairman of UBA',
+    image: 'images/Paul_Kagame_2014.jpg',
+    name: 'H.E Paul Kagame ',
+    about: 'Current president of Rwanda',
     history:
-      'Nigerian economist, and philanthropist. He a Business owner, citing Heirs Holdings, Transcorp and founder of The Tony Elumelu Foundation.',
+      'Rwandan president and former military leader. He is the sixth president of Rwanda, having taken office in 2000.',
   },
 
-  {
-    image: 'images/nevers-mumba.jpeg',
-    name: 'Dr Nevers Mumba',
-    about: 'Former vice president of Zambia',
-    history:
-      'Zambian politician and religious minister. He served as the eighth vice-president of Zambia 2003–04 under Levy Mwanawasa.',
-  },
+
 ];
 
 function createspeakers() {
