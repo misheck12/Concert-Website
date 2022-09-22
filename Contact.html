@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kalibu's - 2020 youth Summit</title>
+    <link rel="stylesheet" href="Assets/extra.css" type="text/css" />
     <link rel="stylesheet" href="Assets/about.css" type="text/css" />
     <script
       src="https://kit.fontawesome.com/02c965c448.js"
@@ -81,18 +82,36 @@
     </header>
     <main>
       <section id="logo-section">
-        <h2>Kalibu's youth Summit 2022 Logo</h2>
-        <div class="red-line"></div>
-        <p>
-         the Kalibu is a symbol of minerals found in Africa , it was designed by a grade 12 <br>
-         pupil at Kitwe boys secondary school in 2011
-        </p>
-        <div class="logo-container">
-          <span>
-            <i class="fa-brands fa-artstation fa-6x"></i>
-          </span>
+      
+        <div class="form">
+          <form action="https://formspree.io/f/xnqoqzqz" method="POST">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter your message here"
+              maxlength="500"
+              required
+            ></textarea>
+            <button type="submit" id="submit">Submit</button>
         </div>
       </section>
+
       <section id="Alumni">
         <h2>Alumni of Kalibu's 2021 youth Summit</h2>
         <div class="red-line"></div>
