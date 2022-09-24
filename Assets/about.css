@@ -767,7 +767,7 @@ footer .logo div#logo-name {
 
   footer .logo #logo-span {
     color: #ec5242;
-    font-size: 1.5rem;
+    font-size: 1.5rem; border: ;
   }
 
   footer .logo #logo-name {
@@ -780,4 +780,8 @@ footer .logo div#logo-name {
     font-size: 1.2rem;
     margin-left: 50px;
   }
+}
+
+.prog{
+  display: flex;
 }
