@@ -130,6 +130,7 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .bottom-nav ul li {
