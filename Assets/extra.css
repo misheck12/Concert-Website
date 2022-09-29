@@ -1,83 +1,83 @@
 body {
-    font-family: lato, sans-serif;
-    color: #5c61;
-  }
-  
-.contact-section {
-    background-image: url(../images/about-dektop.png);
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #fff;
-    background-repeat: no-repeat;
-    background-position: right;
-    border: 1px solid white;
-    padding-bottom: 48px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .con-title {
-    color: #ff4308;
-    justify-content: center;
-    font-weight: bold;
-    line-height: 40px;
-    font-size: 40px;
-    font-family: Poppins, sans-serif;
-    margin: 150px auto 12px;
-  }
-  
-  .con-paragraph {
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    color: #636b6e;
-    justify-content: center;
-    text-align: center;
-    font-weight: normal;
-    margin: 0 auto;
-    padding: 10px 50px;
-  }
-  
-  .con-form {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    gap: 20px;
-  }
-  
-  .form-text {
-    border: 1px solid #636b6e;
-    border-radius: 8px;
-    height: 48px;
-    padding: 15px;
-    font-family: Poppins, sans-serif;
-  }
-  
-  .error-message {
-    color: red !important;
-    margin-top: 0.2rem;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-  
-  .con-but {
-    justify-content: start;
-    width: 140px;
-    height: 48px;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 8px;
-    font-family: Poppins, sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    color: #2e63e7;
-  }
+  font-family: lato, sans-serif;
+  color: #5c61;
+}
 
-  .con-but:hover {
-    background-color: #ff4308;
-    color: #fff;
-  }
+.contact-section {
+  background-image: url(../images/about-dektop.png);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid white;
+  padding-bottom: 48px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.con-title {
+  color: #ff4308;
+  justify-content: center;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  margin: 150px auto 12px;
+}
+
+.con-paragraph {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #636b6e;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+
+.con-form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 20px;
+}
+
+.form-text {
+  border: 1px solid #636b6e;
+  border-radius: 8px;
+  height: 48px;
+  padding: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.error-message {
+  color: red !important;
+  margin-top: 0.2rem;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.con-but {
+  justify-content: start;
+  width: 140px;
+  height: 48px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #2e63e7;
+}
+
+.con-but:hover {
+  background-color: #ff4308;
+  color: #fff;
+}

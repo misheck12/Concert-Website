@@ -739,6 +739,7 @@ footer .logo div {
   header #headline #location {
     display: block;
     font-size: 1.5rem;
+    margin-bottom: 3px;
   }
 
   main #main-curriculum {
@@ -784,6 +785,11 @@ footer .logo div {
     display: block;
     text-decoration: underline;
     padding: 50px 0;
+    color: #fff;
+  }
+
+  main #main-curriculum #see-program:hover {
+    color: #ec5242;
   }
 
   main #speakers {

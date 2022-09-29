@@ -619,6 +619,18 @@ footer .logo div#logo-name {
     display: none;
   }
 
+  .btn {
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+  }
+
+  .btn:hover {
+    background-color: #fff;
+    color: #ec5242;
+    border: 2px solid #ec5242;
+  }
+
   header {
     height: 100vh;
     background-position: center 25%;
@@ -667,7 +679,6 @@ footer .logo div#logo-name {
     opacity: 0.6;
     margin: 15px 0 30px 0;
   }
-
 
   .connect {
     margin: 40px;
@@ -767,7 +778,7 @@ footer .logo div#logo-name {
 
   footer .logo #logo-span {
     color: #ec5242;
-    font-size: 1.5rem; border: ;
+    font-size: 1.5rem;
   }
 
   footer .logo #logo-name {
@@ -782,6 +793,6 @@ footer .logo div#logo-name {
   }
 }
 
-.prog{
+.prog {
   display: flex;
 }
