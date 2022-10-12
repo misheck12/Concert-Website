@@ -37,8 +37,16 @@ nav {
 }
 
 .open-menu a {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
   text-decoration: none;
-  color: #fff;
+}
+
+.open-menu ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .top-nav {
@@ -514,9 +522,10 @@ footer .logo div#logo-name {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     background-color: #313131;
-    padding: 10px 0;
+    padding: 7px 0;
   }
 
   nav #top-nav ul {
@@ -526,7 +535,7 @@ footer .logo div#logo-name {
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 30px;
   }
 
@@ -595,8 +604,8 @@ footer .logo div#logo-name {
   }
 
   nav #bottom-nav #campaign {
-    border: 5px solid #ec5242;
-    padding: 10px;
+    border: 2px solid #ec5242;
+    padding: 5px 10px;
   }
 
   #exit-button {
@@ -613,7 +622,9 @@ footer .logo div#logo-name {
 
   nav #bottom-nav #campaign:hover {
     cursor: pointer;
-    border: 2px solid #ec5242;
+    color: #fff;
+    background-color: #ec534223;
+    border: 2px solid #ec534262;
   }
 
   #menu {

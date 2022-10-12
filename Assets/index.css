@@ -41,8 +41,16 @@ nav {
 }
 
 .open-menu a {
-  color: #fff;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
   text-decoration: none;
+}
+
+.open-menu ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .top-nav {
@@ -586,7 +594,7 @@ footer .logo div {
     justify-content: center;
     gap: 30px;
     background-color: #313131;
-    padding: 10px 0;
+    padding: 7px 0;
   }
 
   nav #top-nav ul {
@@ -596,7 +604,7 @@ footer .logo div {
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 30px;
   }
 
@@ -665,8 +673,8 @@ footer .logo div {
   }
 
   nav #bottom-nav #campaign {
-    border: 5px solid #ec5242;
-    padding: 10px;
+    border: 2px solid #ec5242;
+    padding: 5px 10px;
   }
 
   nav #bottom-nav #campaign span {
@@ -679,7 +687,9 @@ footer .logo div {
 
   nav #bottom-nav #campaign:hover {
     cursor: pointer;
-    border: 2px solid #ec5242;
+    color: #fff;
+    background-color: #ec534223;
+    border: 2px solid #ec534262;
   }
 
   header {
@@ -700,10 +710,12 @@ footer .logo div {
 
   header #menu {
     display: none;
+    padding: 20px;
   }
 
   header #headline {
-    margin-top: 150px;
+    margin-top: 120px;
+    min-height: 100vh;
     width: 80%;
     min-width: 800px;
   }
@@ -743,6 +755,7 @@ footer .logo div {
   }
 
   main #main-curriculum {
+    height: 100vh;
     background-position: bottom;
   }
 
