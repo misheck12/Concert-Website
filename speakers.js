@@ -2,7 +2,7 @@ const speakersSection = document.querySelector('#speakers');
 
 const speakersObject = [
   {
-    image: 'images/download.jpeg',
+    image: 'images/morgan01.jpg',
     name: 'H.E Hakainde Hichilema',
     about: 'Current president of Zambia',
     history:
@@ -10,28 +10,27 @@ const speakersObject = [
   },
 
   {
-    image: 'images/president-Nana.png',
+    image: 'images/misheck01.jpg',
     name: 'H.E Nana Akufo-Addo',
     about: 'Current president of Ghanan',
     history: 'Ghanaian president who has served Ghana since 7 January 2017. In 2020, he was re-elected for his second term, which will end on 6 January 2025.',
   },
 
-  {
-    image: 'images/Paul_Kagame_2014.jpg',
-    name: 'H.E Paul Kagame ',
-    about: 'Current president of Rwanda',
-    history:
-      'Rwandan president and former military leader. He is the sixth president of Rwanda, having taken office in 2000.',
-  },
+  // {
+  //   image: 'images/Paul_Kagame_2014.jpg',
+  //   name: 'H.E Paul Kagame ',
+  //   about: 'Current president of Rwanda',
+  //   history:
+  //     'Rwandan president and former military leader. He is the sixth president of Rwanda, having taken office in 2000.',
+  // },
 
-  {
-    image: 'images/Paul_Kagame_2014.jpg',
-    name: 'H.E Paul Kagame ',
-    about: 'Current president of Rwanda',
-    history:
-      'Rwandan president and former military leader. He is the sixth president of Rwanda, having taken office in 2000.',
-  },
-
+  // {
+  //   image: 'images/Paul_Kagame_2014.jpg',
+  //   name: 'H.E Paul Kagame ',
+  //   about: 'Current president of Rwanda',
+  //   history:
+  //     'Rwandan president and former military leader. He is the sixth president of Rwanda, having taken office in 2000.',
+  // },
 
 ];
 
