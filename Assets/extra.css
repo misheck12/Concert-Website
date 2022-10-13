@@ -81,3 +81,16 @@ body {
   background-color: #ff4308;
   color: #fff;
 }
+
+.open-menu a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.open-menu ul {
+  display: flex;
+  flex-direction: column;
+}
